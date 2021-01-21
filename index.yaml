@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  smk-init-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-21T20:34:23.933988468Z"
+    description: A Helm chart for Kubernetes
+    digest: 8480238350ca6e7585b86f9c2f9cfc2ed626566c385af337f9d89bbcf9999c47
+    name: smk-init-helm-chart
+    type: application
+    urls:
+    - https://github.com/bcgov/smk-helms/releases/download/smk-init-helm-chart-0.1.0/smk-init-helm-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-21T20:34:23.770630006Z"
