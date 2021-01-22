@@ -3,6 +3,16 @@ entries:
   smk-app-deploy:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-01-22T00:44:15.126197624Z"
+    description: A Helm chart for Kubernetes
+    digest: 94bb2f1734c797ea7d0038b2f9b71e75c8477a6b911918ff105c079b67376f34
+    name: smk-app-deploy
+    type: application
+    urls:
+    - https://github.com/bcgov/smk-helms/releases/download/smk-app-deploy-0.1.2/smk-app-deploy-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-01-22T00:41:26.909118484Z"
     description: A Helm chart for Kubernetes
     digest: 0d76f5762bace10c1279309d23151982b053f68f6a89f594bd649b03671e431d
