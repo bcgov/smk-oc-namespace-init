@@ -1,13 +1,10 @@
-kind: NetworkSecurityPolicy
-apiVersion: security.devops.gov.bc.ca/v1alpha1
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
 metadata:
-  name: {{ .Values.app_name }}-external-ingress
+  name: allow-all-ingress
 spec:
-  description: |
-    Allow the frontend (web) to receive connections from the Internet.
-  source:
-    - - ext:network=any
-  destination:
-    - - app={{ .Values.app_name }}
-      - role={{ .Values.web_role }}
-      - env={{ .Values.env }}
+  podSelector: {}
+  ingress:
+  - {}
+  policyTypes:
+  - Ingress
