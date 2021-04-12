@@ -30,9 +30,9 @@ rules:
       - create
       - patch
   - apiGroups:
-      - security.devops.gov.bc.ca
+      - networking.k8s.io
     resources:
-      - networksecuritypolicies
+      - networkpolicies
     verbs:
       - get
       - list
